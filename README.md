@@ -37,11 +37,13 @@ Ejecutamos el instalador (setup.exe). En este caso no es necesario modificar nin
 Para iniciar el entorno se deje ejecutar el archivo emu8086.exe que se encuentra en el directorio de instalación (ej. c:\emu8086).
 
 Luego de iniciar el entorno el emu8086 ofrece diferentes opciones:  
+```
 
 •	New: permite escribir un nuevo código en lenguaje ensamblador (“Código Fuente” con extensión .ASM) 
 •	Code examples: permite acceder a una serie de programas ejemplos muy útiles al momento de aprender a utilizar el entorno y la programación en assembler. 
 •	Quick start tutor: llama al browser y permite explorar gran variedad de documentos de ayuda. 
 •	Recent file: muestra los últimos archivos con los cuales se estuvo trabajando. 
+```
 
 
 
