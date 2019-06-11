@@ -80,7 +80,8 @@ END
 
 
 Cada una de las líneas de código es explicada a continuación: 
-
+///
+/*
 .MODEL SMALL                ;modelo pequeño de compilacion (64k como maximo)
 .STACK 100h                 ;Segmento de pila: Pila 256 posiciones
 CR EQU 13                   ;Declaracion de constantes
@@ -89,7 +90,7 @@ LF EQU 10
  TEXTO DB 'Hola Mundo!$',CR,LF     ;Reserva de memoria con retorno de carro e
                             ;Inicio de liena, la variable TEXTO es de tipo
                             ;byte,el simbolo $ es el simbolo de fin de cadena
-.CODE                       ;Comienzo del segmento de codigo
+.CODE                       ;Comienzo del segmento de codigo*/
  MOV AX, SEG TEXTO          ;Mueve a AX la direccion del primer byte del
                             ;segmento de datos
  MOV DS,AX                  ;Mueve dicha direccion al segmento de datos
