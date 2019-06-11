@@ -104,7 +104,6 @@ END                         ;fin
 
 
 
- 
 
 
 Para ejecutar el programa seleccionamos el botón compile del menú superior, luego en la ventana que se despliega escogemos la ruta donde deseamos guardar el programa compilado, colocamos un nombre al archivo y escogemos la opción “guardar”. 
