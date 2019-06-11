@@ -79,7 +79,7 @@ END
 
 
 
-**Cada una de las líneas de código es explicada a continuación: **
+**Cada una de las líneas de código es explicada a continuación:**
 ```
 .MODEL SMALL                ;modelo pequeño de compilacion (64k como maximo)
 .STACK 100h                 ;Segmento de pila: Pila 256 posiciones
