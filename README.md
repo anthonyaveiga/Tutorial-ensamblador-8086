@@ -8,6 +8,18 @@
 
 Assembler o ensamblador es un lenguaje de programación de bajo nivel el cual consiste en un conjunto de mnemónicos que representan instrucciones básicas para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables.
 
+```
+El lenguaje ensamblador es el sistema alfanumérico para escribir código máquina mediante
+expresiones abreviadas (mnemotécnicos).
+La compilación es más complicada porque incluye la conversión de operaciones matemáticas
+complejas, comandos de lenguaje natural o tipos de comandos complejos.
+Cada ordenador tiene su propio lenguaje ensamblador, exclusivo de su CPU; un lenguaje de alto
+nivel (LAN) puede ser compilado en distintas máquinas.
+Es usado principalmente porque hay aplicaciones o programas que deben tratar directamente con los
+registros de la máquina, la memoria, dispositivos de E/S, etc.
+
+```
+
 **1.3	EMU8086**
 
 EMU8086 es un emulador del microprocesador 8086 (Intel o AMD compatible) con assembler integrado, este entorno corre sobre Windows y cuenta con una interfaz gráfica muy amigable e intuitiva que facilita el aprendizaje el lenguaje de programación en assembler.
