@@ -12,7 +12,22 @@ Assembler o ensamblador es un lenguaje de programación de bajo nivel el cual co
 
 EMU8086 es un emulador del microprocesador 8086 (Intel o AMD compatible) con assembler integrado, este entorno corre sobre Windows y cuenta con una interfaz gráfica muy amigable e intuitiva que facilita el aprendizaje el lenguaje de programación en assembler.
 
-
+**LA ESTRUCTURA DEL ENSAMBLADOR:**
+En el lenguaje ensamblador las líneas de código constan de dos partes, la primera es el nombre de la
+instrucción que se va a ejecutar y la segunda son los parámetros del comando u operando. Por
+ejemplo:
+ADD ah bh
+Aquí "ADD" es el comando a ejecutar (en este caso una adición o suma) y tanto "ah" como "bh" son
+los parámetros.
+El nombre de las instrucciones en este lenguaje puede estar formado de 2 a 6 letras, a estas
+instrucciones también se les llama nombres mnemónicos o códigos de operación, ya que representan
+alguna función que habrá de realizar el procesador. Existen algunos comandos que no requieren
+parámetros para su operación, así como otros que requieren solo un parámetro.
+Algunas veces se utilizarán las instrucciones como sigue:
+ADD al,[170]
+Los corchetes en el segundo parámetro nos indican que vamos a trabajar con el contenido de la casilla
+de memoria número 170 y no con el valor 170, a esto se le conoce como direccionamiento directo (en
+la instrucción viene la dirección del objeto).
 
 **2.	DESCARGA E INSTALACION DE EMU8086**
 
@@ -108,13 +123,13 @@ END                         ;fin
 
 
 
-Para ejecutar el programa seleccionamos el botón compile del menú superior, luego en la ventana que se despliega escogemos la ruta donde deseamos guardar el programa compilado, colocamos un nombre al archivo y escogemos la opción “guardar”. 
+Para ejecutar el programa seleccionamos el botón compile del menú superior.
 
-
+luego en la ventana que se despliega escogemos la ruta donde deseamos guardar el programa compilado, colocamos un nombre al archivo y escogemos la opción “guardar”. 
 
 
 
 En la ventana “assembler status” seleccionamos el botón “run” para ejecutar el programa.
 
 
-Finalmente, se nos presenta en pantalla el programa ejecutándose.
+**Finalmente, se nos presenta en pantalla el programa ejecutándose.**
