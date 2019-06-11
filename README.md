@@ -80,8 +80,7 @@ END
 
 
 Cada una de las líneas de código es explicada a continuación: 
-///
-/*
+```
 .MODEL SMALL                ;modelo pequeño de compilacion (64k como maximo)
 .STACK 100h                 ;Segmento de pila: Pila 256 posiciones
 CR EQU 13                   ;Declaracion de constantes
@@ -103,7 +102,7 @@ LF EQU 10
  INT 21h                    ;Interrupcion que llama a DOS para terminar elprograma
 END                         ;fin
 
-
+```
 
 
 
