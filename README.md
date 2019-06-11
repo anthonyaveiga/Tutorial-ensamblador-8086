@@ -1,8 +1,8 @@
 # Tutorial-ensamblador-8086
 
-**TUTORIAL DE ENSAMBLADOR**
+##**TUTORIAL DE ENSAMBLADOR**
 
-**1.	DEFINICIONES BÁSICAS**
+#**1.	DEFINICIONES BÁSICAS**
 
 **1.2	 ENSAMBLADOR**
 
@@ -14,7 +14,7 @@ EMU8086 es un emulador del microprocesador 8086 (Intel o AMD compatible) con ass
 
 
 
-**2.	DESCARGA E INSTALACION DE EMU8086**
+#**2.	DESCARGA E INSTALACION DE EMU8086**
 
 Para descargar el instalador del entorno Emu8086 nos dirigimos al siguiente enlace:
 https://download.cnet.com/Emu8086-Microprocessor-Emulator/3000-2069_4-10392690.html
@@ -32,7 +32,7 @@ Ejecutamos el instalador (setup.exe). En este caso no es necesario modificar nin
 
  
 
-**3.	UTILIZACIÓN DEL ENTORNO EMU8086**
+#**3.	UTILIZACIÓN DEL ENTORNO EMU8086**
 
 Para iniciar el entorno se deje ejecutar el archivo emu8086.exe que se encuentra en el directorio de instalación (ej. c:\emu8086).
 
@@ -45,7 +45,7 @@ Luego de iniciar el entorno el emu8086 ofrece diferentes opciones:
 
 
 
-**4.	PROGRAMA “HOLA MUNDO”**
+#**4.	PROGRAMA “HOLA MUNDO”**
 
 En este ejemplo realizaremos un programa que imprima en pantalla el texto “Hola mundo”.
 
