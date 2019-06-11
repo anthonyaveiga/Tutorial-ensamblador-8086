@@ -8,13 +8,13 @@
 
 Assembler o ensamblador es un lenguaje de programación de bajo nivel el cual consiste en un conjunto de mnemónicos que representan instrucciones básicas para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables.
 
-**1.3	EMU8086
+**1.3	EMU8086**
 
 EMU8086 es un emulador del microprocesador 8086 (Intel o AMD compatible) con assembler integrado, este entorno corre sobre Windows y cuenta con una interfaz gráfica muy amigable e intuitiva que facilita el aprendizaje el lenguaje de programación en assembler.
 
 
 
-**2.	DESCARGA E INSTALACION DE EMU8086
+**2.	DESCARGA E INSTALACION DE EMU8086**
 
 Para descargar el instalador del entorno Emu8086 nos dirigimos al siguiente enlace:
 https://download.cnet.com/Emu8086-Microprocessor-Emulator/3000-2069_4-10392690.html
@@ -32,7 +32,7 @@ Ejecutamos el instalador (setup.exe). En este caso no es necesario modificar nin
 
  
 
-**3.	UTILIZACIÓN DEL ENTORNO EMU8086
+**3.	UTILIZACIÓN DEL ENTORNO EMU8086**
 
 Para iniciar el entorno se deje ejecutar el archivo emu8086.exe que se encuentra en el directorio de instalación (ej. c:\emu8086).
 
@@ -45,7 +45,7 @@ Luego de iniciar el entorno el emu8086 ofrece diferentes opciones:
 
 
 
-**4.	PROGRAMA “HOLA MUNDO”
+**4.	PROGRAMA “HOLA MUNDO”**
 
 En este ejemplo realizaremos un programa que imprima en pantalla el texto “Hola mundo”.
 
@@ -79,7 +79,7 @@ END
 
 
 
-**Cada una de las líneas de código es explicada a continuación: 
+**Cada una de las líneas de código es explicada a continuación: **
 ```
 .MODEL SMALL                ;modelo pequeño de compilacion (64k como maximo)
 .STACK 100h                 ;Segmento de pila: Pila 256 posiciones
